@@ -1,0 +1,49 @@
+body {
+  font-family: $font-family;
+}
+
+.container {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $gutter;
+  padding-right: $gutter;
+  position: relative;
+}
+
+a {
+  color: $color-navy;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: $finger-size;
+  color:white;
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: $border-radius;
+
+  &-icon {
+    justify-content: center;
+    color: black;
+    padding-left: 0;
+    padding-right: 0;
+    width: $finger-size;
+  }
+  &-blue {
+    color: white;
+    background-color: $color-blue;
+  }
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
